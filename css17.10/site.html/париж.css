@@ -1,0 +1,39 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 50fr 200fr;
+    
+    
+}
+.box{
+    border: 1px solid black;
+    background: rgb(214, 63, 63);
+    padding: 20px;
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+.box:nth-child(4){
+background: rgb(0, 0, 0);
+grid-column: 1/3;
+}
+.box:nth-child(1){
+    background: darkgrey;
+    grid-column: 1/3;
+    grid-row: 1/3; 
+
+}
+.box1{
+    background: rgb(214, 63, 63);
+    color: blue;
+    width: 1200px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+img{
+    width: 750px;
+    height: 500px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: auto;
+}

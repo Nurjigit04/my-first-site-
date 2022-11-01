@@ -1,0 +1,41 @@
+div{
+    border-left: solid 30px black ;
+    border-right: solid 35px black;
+}
+button{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background: green;
+    color: aliceblue;
+    margin: 3px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    animation-name: move-to-right;
+    animation-duration:1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes move-to-right{
+0% {
+    margin-left: 15px;
+    }
+    20%{
+        background: rebeccapurple;
+    }
+    50%{
+        background: wheat;
+    }
+    75%{
+        background: blue;
+    }
+    80%{
+        background: royalblue;
+    }
+   100%{
+    margin-left: 1200px;
+    background: red;
+}
